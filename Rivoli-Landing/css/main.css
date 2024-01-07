@@ -1,0 +1,529 @@
+a {
+  cursor: pointer;
+}
+
+.width-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*COMPUTER HEADER AND NAVIGATION*/
+
+.background-image {
+  background-image: url(../img/alt-background.jpeg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  repeat: no-repeat;
+  background-position: left;
+  z-index: -1;
+}
+
+.header-main {
+  width: 100%;
+  height: 100px;
+  border-bottom: white 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 200px;
+  height: 100px;
+  margin-left: 40px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+}
+
+header nav ul li a {
+  color: white;
+  line-height: 100px;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 100;
+}
+
+header nav ul li a:hover {
+  color: blue;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title a {
+  line-height: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 100;
+}
+
+.header-social {
+    width: 200px;
+    height: 100%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+
+.header-instagram {
+  background-image: url(../img/white-ig.png);
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.header-mail {
+  background-image: url(../img/white-email.png);
+  height: 25px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+/*END COMPUTER HEADER AND NAVIGATION*/
+
+/*COMPUTER MAIN BANNER*/
+
+.title-and-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Source Serif Pro';
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 70%;
+  cursor: default;
+}
+
+.explore-button {
+  color: white;
+  font-size: 20px;
+  font-family: 'open sans';
+  font-weight: 100;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 15px 90px 15px 90px;
+}
+
+.explore-button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*END COMPUTER MAIN BANNER*/
+
+/*COMPUTER TWO COLUMN SECTION*/
+
+.two-column-wrapper {
+  width: 100%;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.places-img {
+  background-image: url(../img/places.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 650px;
+  height: 650px;
+}
+
+.cafe-img {
+  background-image: url(../img/cafe.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 650px;
+  height: 650px;
+}
+
+.date {
+  color: white;
+  text-align: center;
+  font-family: 'open sans';
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.two-column-title {
+  color: white;
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 50px;
+
+}
+
+.two-column a {
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+/*END COMPUTER TWO COLUMN SECTION*/
+
+/*START FOUR COLUMN ROW 1*/
+
+.four-col-row-1 {
+  width: 100%;
+  height: 600px;
+  padding: 100px 50px 100px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-rows-header {
+  width: 24%;
+}
+
+.column-rows {
+  width: 20%;
+}
+
+.column-title-row-1 {
+  color: blue;
+  font-size: 80px;
+  font-family: 'source serif pro';
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.row-desc {
+  font-size: 28px;
+  font-family: 'open sans';
+  font-weight: 300;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+
+.read-more-link {
+
+}
+
+.read-more-button {
+  color: blue;
+  font-size: 18px;
+  font-family: 'open sans';
+  font-weight: 300;
+  border: 1px solid blue;
+  width: 200px;
+  padding: 5px 50px 5px 50px;
+}
+
+.read-more-button:hover {
+  color: white;
+  background-color: blue;
+  transition: ease-in-out 200ms;
+}
+
+.row1-pic1 {
+  background-image: url(../img/squash.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row-1-pic-dates {
+  font-family: 'open sans';
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.row-1-pic-titles {
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.article-read-more-button {
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.article-read-more-button:hover {
+  color: blue;
+}
+
+.row1-pic2 {
+  background-image: url(../img/cheese.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row1-pic3 {
+  background-image: url(../img/lasagna.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*END FOUR COLUMN ROW 1*/
+
+/*START FOUR COLUMN ROW 2*/
+
+.four-col-row-2 {
+  width: 100%;
+  height: 600px;
+  padding: 100px 50px 100px 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-rows-title {
+  width: 24%;
+}
+
+.column-title-row-2 {
+  color: blue;
+  font-size: 80px;
+  font-family: 'source serif pro';
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.row-2-desc {
+  font-size: 28px;
+  font-family: 'open sans';
+  font-weight: 300;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+
+.row-2-read-more-link {
+
+}
+
+.row-2-read-more-button {
+  color: blue;
+  font-size: 18px;
+  font-family: 'open sans';
+  font-weight: 300;
+  border: 1px solid blue;
+  width: 200px;
+  padding: 5px 50px 5px 50px;
+}
+
+.row-2-read-more-button:hover {
+  color: white;
+  background-color: blue;
+  transition: ease-in-out 200ms;
+}
+
+.row2-pic1 {
+  background-image: url(../img/adventure.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row2-pic2 {
+  background-image: url(../img/explore.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row2-pic3 {
+  background-image: url(../img/hotel.jpeg);
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row-2-pic-dates {
+  font-family: 'open sans';
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.row-2-pic-titles {
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.row-2-article-read-more-button {
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.row-2-article-read-more-button:hover {
+  color: blue;
+  z-index: -1;
+}
+/*END FOUR COLUMN ROW 2*/
+
+/*BLUE BANNER SECTION*/
+
+.blue-banner {
+  width: 100%;
+  height: 750px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-items-width {
+  width: 30%;
+  align-self: center;
+  align-items:;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.portrait {
+  background-image: url(../img/josephine.jpeg);
+  height: 300px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 50px;
+}
+
+.about-her-p {
+  color: white;
+  font-family: 'open sans';
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.say-hi {
+  color: white;
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid white;
+  padding: 10px 90px 10px 90px;
+}
+
+.say-hi:hover {
+  color: blue;
+  background-color: white;
+  transition: ease-in-out 100ms;
+}
+
+/*BLUE BANNER SECTION*/
+
+/*FOOTER*/
+
+footer {
+  height: 150px;
+}
+
+.footer-title {
+  width: 100%;
+  text-align: center;
+  line-height: 150px;
+  color: blue;
+  font-size: 55px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 100;
+}
+
+.footer-links {
+  width: 100%;
+  height: 100%;
+  align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer-links a {
+  font-family: 'source serif pro';
+  font-size: 25px;
+  font-weight: 100;
+  color: blue;
+  text-decoration: 1.5px underline;
+  line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END FOOTER*/

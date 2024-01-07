@@ -1,0 +1,366 @@
+.width-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.header-background {
+  width: 100%;
+  height: 755px;
+  background-image: url(../img/dog-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/*COMPUTER NAVIGATION*/
+
+.header-main {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+ align-self: ;
+ color: white;
+ width: 100%;
+}
+
+.title a {
+  font-size: 40px;
+  font-family: 'open sans';
+}
+
+.navigation {
+  width: 100%;
+}
+
+.navigation ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding-top: 15px;
+}
+
+.nav-links {
+  color: white;
+  font-size: 17px;
+  font-family: 'open sans';
+  font-weight: 100;
+}
+
+.nav-links:hover {
+  color: #c79289;
+}
+
+.nav-button {
+  border: 1px solid #c79289;
+  background-color: #c79289;
+  padding: 18px 30px;
+  color: white;
+  font-size: 17px;
+  font-family: 'open sans';
+  font-weight: 300;
+}
+
+.nav-button:hover {
+  color: #f2f2f2;
+  border: 1px solid #a1766e;
+  background-color: #a1766e;
+  transition: ease-in-out 150ms;
+}
+
+/*END COMPUTER NAVIGATION*/
+
+/*HERO SECTION*/
+
+main {
+  width: 60%;
+  height: 100%;
+}
+
+.hero-section {
+  height: 100%;
+  padding-top: 225px;
+  padding-left: 40px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 75px;
+  font-family: 'open sans';
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-family: 'open sans';
+  font-weight: 100;
+  padding: 25px 0px 55px 0px;
+}
+
+.hero-button {
+  border: 1px solid #c79289;
+  background-color: #c79289;
+  padding: 18px 50px;
+  color: white;
+  font-size: 17px;
+  font-family: 'open sans';
+  font-weight: 300;
+}
+
+.hero-button:hover {
+  color: #f2f2f2;
+  border: 1px solid #a1766e;
+  background-color: #a1766e;
+  transition: ease-in-out 150ms;
+}
+
+/*END HERO SECTION*/
+
+/*ADOPTION BANNER*/
+
+.adoption-banner {
+  width: 100%;
+}
+
+.adoption-title {
+  font-size: 55px;
+  font-weight: 500;
+  font-family: 'open sans';
+  text-align: center;
+  padding-top: 80px;
+}
+
+.adoption-p {
+  font-family: 'open sans';
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 36px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+/*END ADOPTION BANNER*/
+
+/*THE PUPS SECTION*/
+
+.background-color {
+  background-color: #c79289;
+}
+
+.the-pups-title {
+  width: 100%;
+  color: white;
+  font-size: 45px;
+  font-family: 'open sans';
+  font-weight: 500;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/*THE PUPS ROW 1*/
+
+.the-pups {
+
+}
+
+.the-pups-row-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dog img {
+  width: 370px;
+  height: 480px;
+}
+
+.dog-name {
+  color: white;
+  font-size: 40px;
+  font-family: 'open sans';
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dog-desc {
+  width: 370px;
+  color: white;
+  font-size: 17px;
+  font-family: 'open sans';
+  font-weight: 100;
+  line-height: 30px;
+}
+
+/*END THE PUPS ROW 1*/
+
+/*THE PUPS ROW 2*/
+
+.the-pups-row-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dog-2 img {
+  width: 370px;
+  height: 550px;
+  padding-top: 100px;
+}
+
+.dog-name {
+  color: white;
+  font-size: 40px;
+  font-family: 'open sans';
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dog-desc-2 {
+  width: 370px;
+  color: white;
+  font-size: 17px;
+  font-family: 'open sans';
+  font-weight: 100;
+  line-height: 30px;
+  padding-bottom: 100px;
+}
+
+/*END THE PUPS ROW 2*/
+
+/*INQURE BUTTON*/
+
+.button-width {
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.inquire-button {
+  color: #c79289;
+  font-size: 25px;
+  font-family: 'open sans';
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid white;
+  padding: 20px 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.inquire-button:hover {
+  color: #c79289;
+  border: 1px solid white;
+  background-color: #f3eae8;
+}
+
+/*END INQUIRE BUTTON*/
+
+/*END THE PUPS SECTION*/
+
+/*FOOTER*/
+
+.footer-section {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box {
+  height: 100px;
+  width: 35%;
+  padding-left: 80px;
+}
+
+.footer-title {
+  font-size: 45px;
+  font-family: 'open sans';
+  width: 100%;
+  margin-top: 25px;
+}
+
+.left-box img {
+  height: 35px;
+  width: 35px;
+  margin-top: 25px;
+}
+
+.left-box p {
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+.main-portfolio-link {
+  text-decoration: underline 2px;
+  color: #c79289;
+}
+
+.right-box {
+  height: 100px;
+  width: 35%;
+  padding-right: 100px;
+  margin-top: 15px;
+}
+
+.row-1-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-1-footer a {
+  color: #c79289;
+  font-family: 'open sans';
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: underline 1px;
+  margin-top: 45px;
+}
+
+.row-2-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-2-footer a {
+  color: #c79289;
+  font-family: 'open sans';
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: underline 1px;
+  margin-top: 25px;
+}
+
+.row-3-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-3-footer a {
+  color: #c79289;
+  font-family: 'open sans';
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: underline 1px;
+  margin-top: 25px;
+}
+/*END FOOTER*/
